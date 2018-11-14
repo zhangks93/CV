@@ -30,7 +30,7 @@ p {
 }
 
 .mainDetails {
-	padding: 25px 35px;
+	padding: 20px 35px 10px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -43,13 +43,13 @@ p {
 }
 
 #name h2 {
-	font-size: 2em;
+	font-size: 1.6em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
 #mainArea {
-	padding: 0 40px;
+	padding: 0 30px;
 }
 
 #headshot {
@@ -71,17 +71,18 @@ p {
 
 #contactDetails {
 	float: right;
+    padding: 38px 0px 5px 5px;
 }
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
-	margin-top: 2px;
+	font-size: 0.8em;
+	margin-top: 5px;s
 }
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
+	color: #444;    text-align:right;
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -92,6 +93,10 @@ p {
 	-o-transition: all .3s ease-in;
 	-ms-transition: all .3s ease-in;
 	transition: all .3s ease-in;
+    font-size: 1.2em;
+
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+
 }
 
 #contactDetails ul li a:hover { 
@@ -101,7 +106,7 @@ p {
 
 section {
 	border-top: 1px solid #dedede;
-	padding: 20px 0 0;
+	padding: 10px 0 0;
 }
 
 section:first-child {
@@ -109,32 +114,38 @@ section:first-child {
 }
 
 section:last-child {
-	padding: 20px 0 10px;
+	padding: 10px 0 5px;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 15%;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 80%;
 }
-
-.sectionTitle h1 {
+#subDetails {
+	float: right;
+    padding: 0px 0px 0px 5px;
+}
+.sectionTitle h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #cf8a05;
 }
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -2px;
+    float:left
 }
-
+.sectionContent ul li {
+	margin-bottom: 5px;
+}
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;

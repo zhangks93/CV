@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Joe Bloggs - Curriculum Vitae</title>
+<title>Curriculum Vitae</title>
 
 <meta name="viewport" content="width=device-width"/>
 <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
@@ -9,7 +9,8 @@
 
 <link type="text/css" rel="stylesheet" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
+.div-c{ float:left;width:49%;border:1px solid #F00} 
+.div-d{ float:right;width:49%;border:1px solid #000} 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -18,19 +19,20 @@
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
+			<img src="headshot.jpg" alt="Kanghu" />
 		</div>
 		
 		<div id="name">
-			<h1 class="quickFade delayTwo">Joe Bloggs</h1>
-			<h2 class="quickFade delayThree">Job Title</h2>
+			<h1 class="quickFade delayTwo">Kangshu Zhang</h1>
+			<h2 class="quickFade delayThree">Data engineer</h2>
+			<h2 class="quickFade delayThree">Data scientist</h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
-				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">joe@bloggs.com</a></li>
-				<li>w: <a href="http://www.bloggs.com">www.bloggs.com</a></li>
-				<li>m: 01234567890</li>
+				<li>E-mail: <a href="mailto:zhangks93@outlook.com" target="_blank">zhangks93@outlook.com</a></li>
+				<li>Blog: <a href="zhangks93.github.io">zhangks93.github.io</a></li>
+				<li>Mobile: +86-18868115590</li>
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -38,13 +40,40 @@
 	
 	<div id="mainArea" class="quickFade delayFive">
 		<section>
+			<div class="sectionTitle">
+				<h2>EDUCATION</h2>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<div style="float:left;width:49%"><h2>Zhejiang University</h2></div>
+					<div style="float:right;width:49%;text-align:right">Sep 2016-Present</div>
+					<div style="float:left;padding:2px 0px 0px 0px"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p></div>
+				</article>
+				<article>
+					
+					<div style="float:left;width:75%"><h2>Huazhong University of Science and Technology</h2></div>
+					<div style="float:right;width:24%;text-align:right">Sep 2012-Jun 2016</div>
+					<div style="float:left;padding:2px 0px 0px 0px"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p></div>
+				</article>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
 			<article>
 				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
+					<h2>CORE SKILLS</h2>
 				</div>
 				
 				<div class="sectionContent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+                    <ul >
+                    <li>Certification:English(TOEFL)</li>
+					<li>Languages: Python, C++, Mysql, shell, html, css</li>
+					<li>Frameworks and Libraries: Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Tensorflow, Keras, Django</li>
+					<li>Tools: Jupyter, Git, Docker</li>
+					<li>Experience with statistical data analysis(linear model, multivariate analysis), machine learning and deep learning(neural networks)</li>
+            </ul>
 				</div>
 			</article>
 			<div class="clear"></div>
@@ -53,27 +82,35 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Work Experience</h1>
+				<h2>PROJECT EXPERIENCE</h2>
 			</div>
 			
 			<div class="sectionContent">
 				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">April 2011 - Present</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+					<div style="float:left;width:49%"><h2>AQUA STUDIO</h2></div>
+					<div style="float:right;width:49%;text-align:right">Independent Development</div>
+                    <div style="float:left;padding:2px 0px 0px 0px"><ul>
+                    <li>Frameworks and Libraries:Django, Keras, Bokeh, Pandas, SemanticUI</li>
+                    <li>Description:Intelligent monitoring and early warning system for wastewater.</li>
+                    </ul></div>
+				</article>
+				<article>
+					<div style="float:left;width:49%;padding:4px 0px 0px 0px"><h2>EASY ANALYTICS</h2></div>
+					<div style="float:right;width:49%;text-align:right">Independent Development</div>
+                    <div style="float:left;padding:2px 0px 0px 0px"><ul>
+                    <li>Frameworks and Libraries:Django, Keras, Bokeh, Pandas, SemanticUI</li>
+                    <li>Description:Intelligent monitoring and early warning system for wastewater.</li>
+                    </ul></div>
+				</article>
+				<article>
+					<div style="float:left;width:49%"><h2>ASPS</h2></div>
+					<div style="float:right;width:49%;text-align:right">Independent Development</div>
+                    <div style="float:left;padding:2px 0px 0px 0px"><ul>
+                    <li>Frameworks and Libraries:Numpy, Pandas, Seaborn, Statsmodel</li>
+                    <li>Description:Simulation platform for activated sludge model.</li>
+                    </ul></div>
 				</article>
 				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">Janruary 2007 - March 2011</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-				
-				<article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -81,45 +118,17 @@
 		
 		<section>
 			<div class="sectionTitle">
-				<h1>Key Skills</h1>
+				<h2>PERSONAL PROFILE</h2>
 			</div>
 			
 			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-				</ul>
+				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
 			</div>
 			<div class="clear"></div>
 		</section>
 		
 		
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-				
-				<article>
-					<h2>College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
+		
 		
 	</div>
 </div>
